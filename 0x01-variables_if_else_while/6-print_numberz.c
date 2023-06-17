@@ -13,7 +13,7 @@ int main(void)
 		putchar(dig + '0');
 		dig++;
 	}
-	printf("\n");
+	putchar("\n");
 
 	return (0);
 }
