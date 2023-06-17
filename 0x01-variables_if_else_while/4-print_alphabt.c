@@ -5,18 +5,16 @@
  */
 int main(void)
 {
-	int alp = 97;
+	int alp = 'a';
 
-	while (alp <= 122)
+	while (alp <= 'z')
 	{
-		if (alp == 101 || alp == 111)
-		{
+		if (alp == 'e' || alp == 'q')
 			alp++;
-			continue;
-		}
 		putchar(alp);
 		alp++;
 	}
 	putchar('\n');
+
 	return (0);
 }
