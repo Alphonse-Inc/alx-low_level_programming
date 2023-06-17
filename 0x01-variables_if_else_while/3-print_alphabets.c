@@ -3,25 +3,21 @@
  * main - Input
  * Return: 0 (Success)
  */
-
 int main(void)
 {
-	char alp;
+	int alp = 97;
+	int alp2 = 65;
 
-	char alp2;
-
-	alp = 'a';
-	alp2 = 'A';
-	while
-		(alp <= 'z') {
-			putchar (alp);
-			alp++;
-		}
-	while
-		(alp2 <= 'z') {
-                        putchar (alp2);
-                        alp2++;
-		}
+	while	(alp <= 122)
+	{
+		putchar(alp);
+		alp++;
+	}
+	while	(alp2 <= 90)
+	{
+		putchar(alp2);
+		alp2++;
+	}
 	putchar('\n');
 	return (0);
 }
